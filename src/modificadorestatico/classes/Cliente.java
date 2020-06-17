@@ -29,9 +29,7 @@ public class Cliente {
 //        }
     }
     
-    public static int[] getParcelas() {
-        return parcelas;
-    }
+    public static int[] getParcelas() { return parcelas; }
 
     
 }

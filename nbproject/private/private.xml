@@ -3,14 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/teste/ProfessorTest.java</file>
-            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/classes/Calculadora.java</file>
-            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/teste/CalculadoraTest.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/Exercicio/Professor.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/Exercicio/Aluno.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/Exercicio/Seminario.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/Exercicio/Local.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/associacao/classes/Pessoa.java</file>
             <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/classes/Estudante.java</file>
-            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/teste/estudanteTest.java</file>
-            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/classes/Carro.java</file>
-            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/classes/Professor.java</file>
-            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/br/com/abc/introducao/teste/CarroTest.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/associacao/classes/Endereco.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/modificadorestatico/classes/Cliente.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/modificadorestatico/test/ClienteTest.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/Exercicio/test/Test.java</file>
+            <file>file:/D:/Usuarios/bruno.graciano/Documents/NetBeansProjects/OlaEclipse/src/associacao/classes/Departamento.java</file>
         </group>
     </open-files>
 </project-private>
