@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Exercicio.classes;
+package Fixacao.classes;
 
 /**
  *
@@ -11,9 +11,10 @@ package Exercicio.classes;
  */
 public class Seminario {
     private String titulo;
+    private Local local;
     private Aluno[] alunos;
     private Professor professor;
-    private Local local;
+    
     
     public Seminario(String titulo) {
         this.titulo = titulo;
@@ -24,23 +25,27 @@ public class Seminario {
     
     public void print(){
         System.out.println("-----Seminário-----");
-        System.out.println("Titulo: " + this.titulo);
-        System.out.println(this.professor != null ? "Professor palestrante:" + this.professor.getNome() : "Nenhum professor para esse seminário");
-        
+        System.out.println("Titulo : " + this.titulo);
         if(this.local != null){
-            System.out.println("Local: " + this.local.getRua() + " " + this.local.getBairro());
+            System.out.println("Local: " + this.local.getRua() + ", " +this.local.getBairro());
         }else{
-            System.out.println("Não há local cadastrado");
+            System.out.println("Este seminário não tem nenhum local");
         }
-
         if(this.alunos != null && this.alunos.length != 0){
-        System.out.println("Alunos: ");
-        for(Aluno aluno : alunos){
-            System.out.println(aluno.getNome());
-        }
+            System.out.print("Alunos: ");
+            for(Aluno aluno : alunos){
+                System.out.print(aluno.getNome() + " ");
+            }
+            System.out.println("");
         }else{
-            System.out.println("Esse seminário não tem nenhum aluno");
+            System.out.println("Não há nenhum aluno neste seminário");
         }
+        if(this.professor != null){
+            System.out.println("Professor: " + this.professor.getNome());
+        }else{
+            System.out.println("Não há nenhum professor neste seminário");
+        }
+        
     }
 
     public Local getLocal() {
@@ -50,7 +55,15 @@ public class Seminario {
     public void setLocal(Local local) {
         this.local = local;
     }
-    
+
+    public Aluno[] getAlunos() {
+        return alunos;
+    }
+
+    public void setAlunos(Aluno[] alunos) {
+        this.alunos = alunos;
+    }
+
     public Professor getProfessor() {
         return professor;
     }
@@ -59,15 +72,6 @@ public class Seminario {
         this.professor = professor;
     }
     
-    public Aluno[] getAlunos() {
-        return alunos;
-    }
-
-    public void setAlunos(Aluno[] alunos) {
-        this.alunos = alunos;
-    }
-    
-    
     public String getTitulo() {
         return titulo;
     }
@@ -75,7 +79,5 @@ public class Seminario {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-    
-    
-    
+
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Exercicio.classes;
+package Fixacao.classes;
 
 /**
  *
@@ -12,7 +12,7 @@ package Exercicio.classes;
 public class Professor {
     private String nome;
     private String especialidade;
-    private Seminario[] seminario;
+    private Seminario[] seminarios;
 
     public Professor(String nome, String especialidade) {
         this.nome = nome;
@@ -21,27 +21,27 @@ public class Professor {
 
     public Professor() {
     }
-    
+
     public void print(){
         System.out.println("-----Professor-----");
-        System.out.println("Nome professor: " + this.nome);
+        System.out.println("Nome: " + this.nome);
         System.out.println("Especialidade: " + this.especialidade);
-        if(this.seminario != null && this.seminario.length != 0){
-        System.out.print("Seminários: ");
-        for(Seminario sem : seminario){
-            System.out.println(sem.getTitulo() + " ");
-        }
+        if(this.seminarios != null && this.seminarios.length != 0){
+            System.out.println("Seminarios desse professor: ");
+            for(Seminario sem : seminarios){
+                System.out.println(sem.getTitulo());
+            }
         }else{
-            System.out.println("Esse professor não está em nenhum seminário");
+            System.out.println("Este Professor não está cadastrado em nenhum seminário");
         }
     }
-
-    public Seminario[] getSeminario() {
-        return seminario;
+    
+    public Seminario[] getSeminarios() {
+        return seminarios;
     }
 
-    public void setSeminario(Seminario[] seminario) {
-        this.seminario = seminario;
+    public void setSeminarios(Seminario[] seminarios) {
+        this.seminarios = seminarios;
     }
     
     public String getNome() {

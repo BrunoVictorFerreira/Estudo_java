@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Exercicio.classes;
+package Fixacao.classes;
+
 /**
  *
  * @author bruno.graciano
@@ -12,22 +13,26 @@ public class Aluno {
     private String nome;
     private int idade;
     private Seminario seminario;
-
+    
     public Aluno(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
     }
 
     public Aluno() {
-        
-    }
-    
-    public void print(){
-        System.out.println("Nome: " + this.nome);
-        System.out.println("Idade: " + this.idade);
-        System.out.println(this.seminario != null ? "Seminario inscrito: " + this.seminario.getTitulo() : "Aluno não está inscrito em nenhum seminário");
     }
 
+    public void print(){
+        System.out.println("-----Aluno-----");
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Idade: " + this.idade);
+        if(this.seminario != null){
+            System.out.println("Seminario que este aluno participa: " + this.seminario.getTitulo());
+        }else{
+            System.out.println("Este aluno não participa de nenhum seminário");
+        }
+    }
+    
     public Seminario getSeminario() {
         return seminario;
     }
@@ -51,5 +56,6 @@ public class Aluno {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+    
     
 }

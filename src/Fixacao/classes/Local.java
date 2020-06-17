@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Exercicio.classes;
+package Fixacao.classes;
 
 /**
  *
@@ -22,7 +22,7 @@ public class Local {
     }
     
     public void print(){
-        System.out.println("-----Bairro-----");
+        System.out.println("-----Local-----");
         System.out.println("Rua: " + this.rua);
         System.out.println("Bairro: " + this.bairro);
     }
