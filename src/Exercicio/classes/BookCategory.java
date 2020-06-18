@@ -3,11 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modificadorFinal.classes;
+package Exercicio.classes;
+
 /**
  *
  * @author bruno.graciano
  */
-public class Subaru extends Carro{
+public enum BookCategory {
+    MYSTERY, SCIENCE_FICTION, BIOGRAPHY;
     
 }

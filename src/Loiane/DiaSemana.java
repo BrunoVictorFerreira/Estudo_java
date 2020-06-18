@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modificadorFinal.classes;
+package Loiane;
+
 /**
  *
  * @author bruno.graciano
  */
-public class Subaru extends Carro{
-    
+public enum DiaSemana {
+    SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO;
 }
