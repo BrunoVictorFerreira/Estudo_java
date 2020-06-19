@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Loiane;
-
+package Interfaces.test;
+import Interfaces.classes.Produto;
 /**
  *
  * @author bruno.graciano
  */
-public class Test {
+public class test {
     public static void main(String[] args) {
-       DiaSemana dia = DiaSemana.SEGUNDA;
-        System.out.println(dia.toString() + " - " + dia.getValor());
-        
-        Data data = new Data(1 , 4 , 2016, DiaSemana.SEXTA);
+        Produto p = new Produto("Notebook", 4, 3000);
+        p.calcularImposto();
+        p.calcularFrete();
+        System.out.println(p);
     }
 }
