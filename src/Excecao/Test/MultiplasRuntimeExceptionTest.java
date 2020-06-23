@@ -5,6 +5,7 @@
  */
 package Excecao.Test;
 
+import java.awt.AWTException;
 import java.io.*;
 import java.sql.SQLException;
 
@@ -16,12 +17,12 @@ public class MultiplasRuntimeExceptionTest {
     public static void main(String[] args) {
         try{
             talvezLanceException();
-        }catch(SQLException | IOException e){
+        }catch(SQLException | IOException | AWTException e){
             e.printStackTrace();
         }
     }
     
-    private static void talvezLanceException() throws SQLException , FileNotFoundException{
-        
+    private static void talvezLanceException() throws SQLException, IOException, AWTException    {
+    
     }
 }
